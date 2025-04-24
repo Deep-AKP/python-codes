@@ -1,0 +1,170 @@
+ 1.) Add two numbers.
+ a=4
+ b=99
+ c=a+b
+ print(c)
+ 103
+
+ 2.)subtract two numbers.
+ a=99
+ b=48
+ c=a-b
+ print(c)
+ 51
+
+ 3.)multiply two numbers.
+ a=99
+ b=38
+ c=a*b
+ print(c)
+ 3762
+
+ 4.)divide two numbers.
+ a=40
+ b=35
+ c=a/b
+ print(c)
+ 1.1428571428571428
+
+ 5.)add,multiply,subtract and divide two numbers.
+ a=96
+ b=69
+ c=a+b
+ d=a-b
+ e=a*b
+ f=a/b
+ print(c,d,e,f)
+ 165 27 6624 1.391304347826087
+
+ 6.)Convert hours into minutes.
+ hours=40
+ minutes=hours*60
+ print(minutes)
+ 2400
+
+ 7.)Convert minutes into hours.
+ minutes=4800
+ hours=minutes/60
+ print(hours)
+ 80.0
+
+ 8.)Convert dollars into Rs. Where 1 $ = 48 Rs.
+ dollar=9999
+ rs=dollar*48
+ print(rs)
+ 479952
+
+ 9.)Convert Rs. into dollars where 1 $ = 48 Rs.
+ rs=9999999
+ dollar=rs/48
+ print(dollar)
+ 208333.3125
+
+ 10.) Convert dollars into pound where 1 $ = 48 Rs. And 1 pound = 70 Rs.
+ dollar=8888
+ rs=dollar*48
+ pound=rs/70
+ print(pound)
+ 6094.628571428571
+
+ 11.) Convert grams into kg.
+ grams=99000
+ kg=grams/1000
+ print(kg)
+ 99.0
+
+ 12.) Convert kgs into grams.
+ kgs=8899
+ grams=kgs*1000
+ print(grams)
+ 8899000
+
+ 13.) Convert bytes into KB, MB and GB.
+ bytes=898989
+ kb=bytes/1024
+ mb=kb/1024
+ gb=mb/1024
+ print(kb,mb,gb)
+ 877.9189453125 0.8573427200317383 0.0008372487500309944
+
+ 14.) Convert celcius into Fahrenheit. F = (9/5 * C) + 32
+ celcius=99
+ fahrenheit=(9/5*celcius)+32
+ print(fahrenheit)
+ 210.20000000000002
+
+ 15.) Convert Fahrenheit into celcius. C = 5/9 * (F – 32)
+ fahrenheit=999
+ celcius=5/9*(fahrenheit-32)
+ print(celcius)
+ 537.2222222222223
+
+ 16.) Calculate interest where I = PRN/100.
+ p=100000
+ r=1000
+ n=1
+ i=p*r*n/100
+ print(i)
+ 1000000.0
+
+ 17.) Calculate area & perimeter of a square. A = L^2, P = 4L
+ l=96
+ a=l**2
+ p=4*l
+ print(a,p)
+ 9216 384
+
+ 18.) Calculate area & perimeter of a rectangle. A = L*B, P = 2 (L+B)
+ l=92
+ b=89
+ a=l*b
+ p=2*(l+b)
+ print(a,p)
+ 8188 362
+
+ 19.) Calculate area of a circle. A = 22/7 * R * R
+ r=72
+ a=22/7*r*r
+ print(a)
+ 16292.571428571428
+
+ 20.) Calculate area of a triangle. A = H*L/2
+ h=85
+ l=49
+ a=h*l/2
+ print(a)
+ 2082.5
+
+ 21.) Calculate net salary where net salary = gross salary + allowance – deduction. Allowances are 10% while deductions are 3% of gross
+ salary.
+ gs=999999
+ a=gs*10/100
+ d=gs*3/100
+ ns=gs+a-d
+ print(ns)
+ 1069998.93
+
+ 22.) Calculate net sales where net sales = gross sales – 10% discount of gross sales.
+ gs=999999
+ d=gs*10/100
+ ns=gs-d
+ print(ns)
+ 899999.1
+
+ 23.) Calculate average of three subjects along with their total.
+ maths=98
+ chemistry=99
+ physics=97
+ total=maths+chemistry+physics
+ average=total/3
+ print(total,average)
+ 294 98.0
+
+ 24.) Swap two values
+ v1=9988
+ v2=8899
+ temp=v1
+ v1=v2
+ v2=temp
+ print(v1,v2)
+ 8899 9988
